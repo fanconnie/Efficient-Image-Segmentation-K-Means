@@ -30,3 +30,5 @@ def kmeans(histogram):
 		''' First iteration assign random centroid points '''
 		if k == 0:
 			cent1 = rand_points[0]
+			cent2 =	rand_points[1]
+		else:
