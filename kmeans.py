@@ -25,3 +25,5 @@ hist,bins = np.histogram(arr,256,[0,256])
 centroid1_avg = 0
 centroid2_avg = 0
 def kmeans(histogram):
+	for k in range(0,10):
+		print '\niteration',k
