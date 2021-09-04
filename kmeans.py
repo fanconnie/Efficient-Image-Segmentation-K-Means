@@ -27,3 +27,6 @@ centroid2_avg = 0
 def kmeans(histogram):
 	for k in range(0,10):
 		print '\niteration',k
+		''' First iteration assign random centroid points '''
+		if k == 0:
+			cent1 = rand_points[0]
