@@ -8,3 +8,6 @@ import random
 
 im = Image.open('input1.jpg').convert('L')
 arr = np.asarray(im)
+
+out = Image.open('out1.jpg').convert('L')
+arr_out = np.asarray(out)
