@@ -19,3 +19,5 @@ rand_points = [ random.randint(0, 255) for i in range(2) ]
 '''finding the histogram of the image to obtain total number of pixels in each level'''
 
 hist,bins = np.histogram(arr,256,[0,256])
+
+#print hist,bins
