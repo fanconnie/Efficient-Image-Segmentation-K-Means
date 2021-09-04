@@ -11,3 +11,9 @@ arr = np.asarray(im)
 
 out = Image.open('out1.jpg').convert('L')
 arr_out = np.asarray(out)
+
+rows,columns = np.shape(arr)
+
+rand_points = [ random.randint(0, 255) for i in range(2) ]
+
+'''finding the histogram of the image to obtain total number of pixels in each level'''
