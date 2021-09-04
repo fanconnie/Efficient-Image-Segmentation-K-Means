@@ -21,3 +21,6 @@ rand_points = [ random.randint(0, 255) for i in range(2) ]
 hist,bins = np.histogram(arr,256,[0,256])
 
 #print hist,bins
+
+centroid1_avg = 0
+centroid2_avg = 0
