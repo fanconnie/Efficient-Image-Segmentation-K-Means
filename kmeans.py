@@ -32,3 +32,5 @@ def kmeans(histogram):
 			cent1 = rand_points[0]
 			cent2 =	rand_points[1]
 		else:
+			#print '\n selecting centroid values'
+			cent1 = centroid1_avg
