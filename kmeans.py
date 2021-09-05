@@ -38,3 +38,6 @@ def kmeans(histogram):
 
 		#print histogram
 		point1_centroid = []
+		point2_centroid = []
+		w1_centroid = []
+		w2_centroid = []
