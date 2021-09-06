@@ -41,3 +41,6 @@ def kmeans(histogram):
 		point2_centroid = []
 		w1_centroid = []
 		w2_centroid = []
+		sum1 = 0
+		sum2 = 0
+		for i,val in enumerate(histogram):
