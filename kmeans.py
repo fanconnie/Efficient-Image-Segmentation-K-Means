@@ -49,3 +49,5 @@ def kmeans(histogram):
 			if  abs(i - cent1) <  abs(i - cent2):
 				point1_centroid.append(i)
 				w1_centroid.append(val)
+				sum1 = sum1 + (i * val)
+				#print '\nselection 1'
