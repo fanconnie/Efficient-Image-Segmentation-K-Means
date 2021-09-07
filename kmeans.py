@@ -53,3 +53,5 @@ def kmeans(histogram):
 				#print '\nselection 1'
 			else:
 				point2_centroid.append(i)
+				w2_centroid.append(val)
+				sum2 = sum2 + (i * val)
