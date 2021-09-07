@@ -44,3 +44,8 @@ def kmeans(histogram):
 		sum1 = 0
 		sum2 = 0
 		for i,val in enumerate(histogram):
+			''' computing absolute distance from each of the cluster and assigning it to a particular cluster based on distance'''
+			#print '\n\n','i',i,'val',val,'cent1', cent1,'cent2', cent2 
+			if  abs(i - cent1) <  abs(i - cent2):
+				point1_centroid.append(i)
+				w1_centroid.append(val)
