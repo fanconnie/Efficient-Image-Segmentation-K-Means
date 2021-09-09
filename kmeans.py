@@ -62,3 +62,6 @@ def kmeans(histogram):
 		centroid2_avg = int(sum2)/sum(w2_centroid)			
 		#print '\n\n','sum1',sum1,'sum2',sum2,'cent1', centroid1_avg,'cent2', centroid2_avg
 	return [point1_centroid,point2_centroid] 
+
+res = kmeans(hist)
+#print res
