@@ -57,3 +57,4 @@ def kmeans(histogram):
 				sum2 = sum2 + (i * val)
 				#print '\nselection 2'
 		
+		
