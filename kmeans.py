@@ -80,3 +80,7 @@ else:
 for i in range(rows):
 	for j in range(columns):
 		if flag == 1:
+			if (arr[i][j] in res[1]):
+				end[i][j] = int(0)
+
+			else:
