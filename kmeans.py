@@ -78,3 +78,5 @@ else:
 
 
 for i in range(rows):
+	for j in range(columns):
+		if flag == 1:
