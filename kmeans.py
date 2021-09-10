@@ -75,3 +75,6 @@ if len(res[1]) > len(res[0]):
 else:
 	print 'flag 0'
 	flag = 0
+
+
+for i in range(rows):
