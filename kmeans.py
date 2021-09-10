@@ -67,3 +67,6 @@ res = kmeans(hist)
 #print res
 
 end = np.zeros((rows,columns))
+
+if len(res[1]) > len(res[0]):
+	'''bacground is res1'''
