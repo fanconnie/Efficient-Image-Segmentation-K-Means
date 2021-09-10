@@ -65,3 +65,5 @@ def kmeans(histogram):
 
 res = kmeans(hist)
 #print res
+
+end = np.zeros((rows,columns))
