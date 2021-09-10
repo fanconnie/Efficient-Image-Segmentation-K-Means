@@ -73,3 +73,5 @@ if len(res[1]) > len(res[0]):
 	print 'flag 1'
 	flag = 1
 else:
+	print 'flag 0'
+	flag = 0
