@@ -70,3 +70,6 @@ end = np.zeros((rows,columns))
 
 if len(res[1]) > len(res[0]):
 	'''bacground is res1'''
+	print 'flag 1'
+	flag = 1
+else:
