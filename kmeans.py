@@ -91,3 +91,5 @@ for i in range(rows):
 
 			else:
 				end[i][j] = int(0)
+
+ground_out = np.zeros((rows,columns))
