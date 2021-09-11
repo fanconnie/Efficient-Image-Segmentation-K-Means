@@ -98,3 +98,6 @@ for i in range(rows):
 	for j in range(columns):
 		if arr_out[i][j] >125:
 			ground_out[i][j] = int(1)
+
+		else:
+			ground_out[i][j] = int(0)
