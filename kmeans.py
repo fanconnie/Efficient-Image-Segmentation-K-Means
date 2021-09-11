@@ -101,3 +101,5 @@ for i in range(rows):
 
 		else:
 			ground_out[i][j] = int(0)
+
+
