@@ -87,3 +87,6 @@ for i in range(rows):
 				end[i][j] = int(1)
 		else:
 			if (arr[i][j] in res[1]):
+				end[i][j] = int(1)
+
+			else:
