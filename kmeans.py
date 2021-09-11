@@ -90,3 +90,4 @@ for i in range(rows):
 				end[i][j] = int(1)
 
 			else:
+				end[i][j] = int(0)
