@@ -103,3 +103,7 @@ for i in range(rows):
 			ground_out[i][j] = int(0)
 
 
+
+''' ********************************** Calculation of Tpr, Fpr, F-Score ***************************************************'''
+
+tp = 0
