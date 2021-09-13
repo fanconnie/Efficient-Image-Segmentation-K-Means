@@ -120,3 +120,4 @@ for i in range(rows):
 		if ground_out[i][j] == 1 and end[i][j] == 0:
 			fn = fn + 1
 		if ground_out[i][j] == 0 and end[i][j] == 1:
+			fp = fp + 1
