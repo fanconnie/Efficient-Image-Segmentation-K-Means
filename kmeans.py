@@ -115,3 +115,6 @@ for i in range(rows):
 	for j in range(columns):
 		if ground_out[i][j] == 1 and end[i][j] == 1:
 			tp = tp + 1
+		if ground_out[i][j] == 0 and end[i][j] == 0:
+			tn = tn + 1
+		if ground_out[i][j] == 1 and end[i][j] == 0:
