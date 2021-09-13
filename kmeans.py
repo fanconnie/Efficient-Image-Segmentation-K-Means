@@ -112,3 +112,6 @@ fn = 0
 fp = 0
 
 for i in range(rows):
+	for j in range(columns):
+		if ground_out[i][j] == 1 and end[i][j] == 1:
+			tp = tp + 1
