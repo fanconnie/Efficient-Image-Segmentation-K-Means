@@ -109,3 +109,6 @@ for i in range(rows):
 tp = 0
 tn = 0
 fn = 0
+fp = 0
+
+for i in range(rows):
