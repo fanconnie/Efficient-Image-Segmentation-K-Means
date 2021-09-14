@@ -128,3 +128,5 @@ print '\n************Calculation of Tpr, Fpr, F-Score********************'
 #TP rate = TP/TP+FN
 tpr= float(tp)/(tp+fn)
 print "\nTPR is:",tpr
+
+#fp rate is
