@@ -130,3 +130,5 @@ tpr= float(tp)/(tp+fn)
 print "\nTPR is:",tpr
 
 #fp rate is
+fpr= float(fp)/(fp+tn)
+print "\nFPR is:",fpr
