@@ -132,3 +132,8 @@ print "\nTPR is:",tpr
 #fp rate is
 fpr= float(fp)/(fp+tn)
 print "\nFPR is:",fpr
+
+#F-score as 2TP/(2TP + FP + FN)
+fscore = float(2*tp)/((2*tp)+fp+fn)
+print "\nFscore:",fscore
+
