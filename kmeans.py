@@ -137,3 +137,8 @@ print "\nFPR is:",fpr
 fscore = float(2*tp)/((2*tp)+fp+fn)
 print "\nFscore:",fscore
 
+
+
+plt.imshow(end, cmap="Greys_r")
+plt.colorbar()
+plt.show()
