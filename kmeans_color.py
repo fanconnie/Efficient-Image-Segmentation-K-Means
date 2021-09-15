@@ -12,3 +12,6 @@ im = Image.open('input2.jpg')
 arr = np.asarray(im)
 
 out = Image.open('out2.jpg').convert('L')
+arr_out = np.asarray(out)
+
+rows,columns = np.shape(arr_out)
