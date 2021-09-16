@@ -15,3 +15,4 @@ out = Image.open('out2.jpg').convert('L')
 arr_out = np.asarray(out)
 
 rows,columns = np.shape(arr_out)
+print 'background pixel level',arr_out[0][0]
