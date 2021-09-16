@@ -24,3 +24,5 @@ ground_out = np.zeros((rows,columns))
 ''' Converting ground truth image into binary image for evaluation'''
 
 for i in range(rows):
+	for j in range(columns):
+		if arr_out[i][j] > 120:
