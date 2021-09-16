@@ -16,3 +16,6 @@ arr_out = np.asarray(out)
 
 rows,columns = np.shape(arr_out)
 print 'background pixel level',arr_out[0][0]
+
+#print '\nrows',rows,'columns',columns
+ground_out = np.zeros((rows,columns))
