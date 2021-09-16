@@ -27,3 +27,5 @@ for i in range(rows):
 	for j in range(columns):
 		if arr_out[i][j] > 120:
 			ground_out[i][j] = 0
+
+		else:
