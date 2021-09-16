@@ -19,3 +19,8 @@ print 'background pixel level',arr_out[0][0]
 
 #print '\nrows',rows,'columns',columns
 ground_out = np.zeros((rows,columns))
+
+
+''' Converting ground truth image into binary image for evaluation'''
+
+for i in range(rows):
