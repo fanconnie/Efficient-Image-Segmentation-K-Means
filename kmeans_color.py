@@ -29,3 +29,6 @@ for i in range(rows):
 			ground_out[i][j] = 0
 
 		else:
+			ground_out[i][j] = 1
+
+plt.figure()
