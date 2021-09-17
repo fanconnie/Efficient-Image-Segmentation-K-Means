@@ -37,3 +37,8 @@ plt.show()
 
 
 shape = np.shape(arr)
+
+rows = shape[0]
+columns = shape[1]
+
+'''obtaining 6 random centroid points'''
