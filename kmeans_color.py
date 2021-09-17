@@ -34,3 +34,4 @@ for i in range(rows):
 plt.figure()
 plt.imshow(ground_out, cmap="Greys_r")
 plt.show()
+
