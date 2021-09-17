@@ -35,3 +35,5 @@ plt.figure()
 plt.imshow(ground_out, cmap="Greys_r")
 plt.show()
 
+
+shape = np.shape(arr)
