@@ -42,3 +42,6 @@ rows = shape[0]
 columns = shape[1]
 
 '''obtaining 6 random centroid points'''
+
+r_points = [ random.randint(0, 255) for i in range(6) ]
+g_points = [ random.randint(0, 255) for i in range(6) ]
