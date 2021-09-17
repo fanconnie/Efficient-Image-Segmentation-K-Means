@@ -32,3 +32,5 @@ for i in range(rows):
 			ground_out[i][j] = 1
 
 plt.figure()
+plt.imshow(ground_out, cmap="Greys_r")
+plt.show()
