@@ -55,3 +55,5 @@ grey1 = 40
 grey2 = 80
 grey3 = 120
 grey4 = 160
+grey5 = 200
+grey6 = 240
