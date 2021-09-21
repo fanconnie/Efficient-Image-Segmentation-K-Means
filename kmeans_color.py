@@ -50,3 +50,5 @@ b_points = [ random.randint(0, 255) for i in range(6) ]
 grey_l = defaultdict(list)
 
 ''' Grey scale levels corresponding to 6 clusters'''
+
+grey1 = 40
