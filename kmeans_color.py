@@ -52,3 +52,5 @@ grey_l = defaultdict(list)
 ''' Grey scale levels corresponding to 6 clusters'''
 
 grey1 = 40
+grey2 = 80
+grey3 = 120
