@@ -62,3 +62,5 @@ grey_l[0] = 40
 grey_l[1] = 80
 grey_l[2] = 120
 grey_l[3] = 160
+grey_l[4] = 200
+grey_l[5] = 240
