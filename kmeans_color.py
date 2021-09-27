@@ -71,3 +71,6 @@ g = defaultdict(list)
 
 g2 = []
 g3 = []
+g4 = []
+g5 = []
+g6 = []
