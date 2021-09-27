@@ -68,3 +68,6 @@ grey_l[5] = 240
 
 
 g = defaultdict(list)
+
+g2 = []
+g3 = []
