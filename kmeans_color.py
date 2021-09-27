@@ -74,3 +74,6 @@ g3 = []
 g4 = []
 g5 = []
 g6 = []
+
+end = np.zeros((rows,columns))
+zavg = [0,0,0]	
