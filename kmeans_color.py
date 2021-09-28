@@ -82,3 +82,4 @@ zavg = [0,0,0]
 
 def find_centroids(g):
 	red_cent_list = []
+	blue_cent_list = []
