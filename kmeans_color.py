@@ -77,3 +77,7 @@ g6 = []
 
 end = np.zeros((rows,columns))
 zavg = [0,0,0]	
+
+''' computing average centroids after every iteration'''
+
+def find_centroids(g):
