@@ -83,3 +83,7 @@ zavg = [0,0,0]
 def find_centroids(g):
 	red_cent_list = []
 	blue_cent_list = []
+	green_cent_list = []
+	#print '0 shape',np.shape(g)
+	for i in range(0,6):
+		array = np.matrix(g[i])
