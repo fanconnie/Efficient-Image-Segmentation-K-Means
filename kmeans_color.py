@@ -87,3 +87,4 @@ def find_centroids(g):
 	#print '0 shape',np.shape(g)
 	for i in range(0,6):
 		array = np.matrix(g[i])
+		avg = np.mean(array,0)
