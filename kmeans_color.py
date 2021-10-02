@@ -90,3 +90,4 @@ def find_centroids(g):
 		avg = np.mean(array,0)
 		#print '\naverage values',avg
 		pavg = np.ravel(avg)
+		#print '2 shape', np.shape(pavg)
