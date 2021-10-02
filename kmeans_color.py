@@ -103,3 +103,5 @@ def find_centroids(g):
 	return[red_cent_list,blue_cent_list,green_cent_list] 
 		
 		 	
+''' Computing 10 iterations to obtain converged centroids of six clusters'''	
+	
