@@ -96,3 +96,6 @@ def find_centroids(g):
 			red_cent_list.append(zavg[0]) 
 			blue_cent_list.append(zavg[1]) 
 			green_cent_list.append(zavg[2])
+		else:
+			red_cent_list.append(pavg[0]) 
+			blue_cent_list.append(pavg[1]) 
