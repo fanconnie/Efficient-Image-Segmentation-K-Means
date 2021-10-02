@@ -91,3 +91,7 @@ def find_centroids(g):
 		#print '\naverage values',avg
 		pavg = np.ravel(avg)
 		#print '2 shape', np.shape(pavg)
+		#print 'pavg', pavg
+		if not len(pavg):
+			red_cent_list.append(zavg[0]) 
+			blue_cent_list.append(zavg[1]) 
