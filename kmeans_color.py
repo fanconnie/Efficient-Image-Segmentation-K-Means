@@ -105,3 +105,5 @@ def find_centroids(g):
 		 	
 ''' Computing 10 iterations to obtain converged centroids of six clusters'''	
 	
+for it in range(0,10):
+	print '\niteration',it
