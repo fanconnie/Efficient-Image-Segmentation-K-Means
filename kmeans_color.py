@@ -115,3 +115,7 @@ for it in range(0,10):
 			red = img[0]
 			green = img[1]
 			blue =  img[2]
+			#print '\n red',red,'blue',blue,'green',green
+
+			distance_list = []
+			for k in range(0,6):
