@@ -114,3 +114,4 @@ for it in range(0,10):
 			#print '\nimg', img
 			red = img[0]
 			green = img[1]
+			blue =  img[2]
