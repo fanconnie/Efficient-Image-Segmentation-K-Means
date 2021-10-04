@@ -113,3 +113,4 @@ for it in range(0,10):
 			img = arr[r][c]
 			#print '\nimg', img
 			red = img[0]
+			green = img[1]
