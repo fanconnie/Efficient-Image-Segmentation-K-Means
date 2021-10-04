@@ -110,3 +110,6 @@ for it in range(0,10):
 	g= defaultdict(list)
 	for r in range(rows):
 		for c in range(columns):
+			img = arr[r][c]
+			#print '\nimg', img
+			red = img[0]
