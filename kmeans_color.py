@@ -107,3 +107,6 @@ def find_centroids(g):
 	
 for it in range(0,10):
 	print '\niteration',it
+	g= defaultdict(list)
+	for r in range(rows):
+		for c in range(columns):
