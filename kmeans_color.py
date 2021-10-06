@@ -124,3 +124,6 @@ for it in range(0,10):
 				distance = math.sqrt(((int(r_points[k])- red)**2)+((int(g_points[k]) - green)**2)+((int(b_points[k])-blue)**2))
 				#print '\ndistance',distance
 				distance_list.append(distance)
+			#print '\ndistance list',distance_list		
+			index, value = min(enumerate(distance_list), key=operator.itemgetter(1))
+			end[r][c] = grey_l[index]
