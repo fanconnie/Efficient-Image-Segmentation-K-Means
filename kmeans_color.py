@@ -119,3 +119,4 @@ for it in range(0,10):
 
 			distance_list = []
 			for k in range(0,6):
+				''' computing absolute distance from each of the cluster and assigning it to a particular cluster based on distance'''
