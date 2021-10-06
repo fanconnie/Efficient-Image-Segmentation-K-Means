@@ -120,3 +120,5 @@ for it in range(0,10):
 			distance_list = []
 			for k in range(0,6):
 				''' computing absolute distance from each of the cluster and assigning it to a particular cluster based on distance'''
+				#print '\n red ref point',r_points[k],'blue ref point ',b_points[k],'green ref point',g_points[k]
+				distance = math.sqrt(((int(r_points[k])- red)**2)+((int(g_points[k]) - green)**2)+((int(b_points[k])-blue)**2))
