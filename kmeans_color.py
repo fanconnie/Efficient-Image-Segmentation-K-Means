@@ -128,3 +128,4 @@ for it in range(0,10):
 			index, value = min(enumerate(distance_list), key=operator.itemgetter(1))
 			end[r][c] = grey_l[index]
 			#print '\nindex',index
+			g[index].append([red,blue,green])
