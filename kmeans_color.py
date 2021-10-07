@@ -131,3 +131,5 @@ for it in range(0,10):
 			g[index].append([red,blue,green])
 	centroids= find_centroids(g)
 	#print 'centroids',centroids
+	r_points = []
+	b_points = []
