@@ -137,3 +137,4 @@ for it in range(0,10):
 	r_points = centroids[0]
 	b_points = centroids[1]
 	g_points = centroids[2]
+	#print '\nr points',r_points
