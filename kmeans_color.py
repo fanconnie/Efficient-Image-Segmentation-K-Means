@@ -145,3 +145,6 @@ for it in range(0,10):
 ''' From observation we know that ground truth image pixel[0,0] is part of background. This is used for evaluation'''
 
 result = np.zeros((rows,columns))
+ref_val = end[0][0]
+#print '\nref_val',ref_val
+for i in range(rows):
