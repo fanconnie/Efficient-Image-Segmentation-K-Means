@@ -140,3 +140,8 @@ for it in range(0,10):
 	#print '\nr points',r_points
 	#print '\nb points',b_points
 	#print '\ng points',g_points
+
+
+''' From observation we know that ground truth image pixel[0,0] is part of background. This is used for evaluation'''
+
+result = np.zeros((rows,columns))
