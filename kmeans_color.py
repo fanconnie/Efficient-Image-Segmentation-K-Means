@@ -133,3 +133,6 @@ for it in range(0,10):
 	#print 'centroids',centroids
 	r_points = []
 	b_points = []
+	g_points = []
+	r_points = centroids[0]
+	b_points = centroids[1]
