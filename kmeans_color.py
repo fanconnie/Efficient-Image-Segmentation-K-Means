@@ -136,3 +136,4 @@ for it in range(0,10):
 	g_points = []
 	r_points = centroids[0]
 	b_points = centroids[1]
+	g_points = centroids[2]
