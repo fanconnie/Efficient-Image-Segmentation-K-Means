@@ -148,3 +148,4 @@ result = np.zeros((rows,columns))
 ref_val = end[0][0]
 #print '\nref_val',ref_val
 for i in range(rows):
+	for j in range(columns):
