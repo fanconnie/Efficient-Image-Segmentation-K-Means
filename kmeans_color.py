@@ -151,3 +151,7 @@ for i in range(rows):
 	for j in range(columns):
 		if end[i][j] ==  ref_val:
 			result[i][j] = 1
+
+		else:
+			result[i][j] = 0
+
