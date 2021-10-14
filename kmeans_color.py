@@ -149,3 +149,5 @@ ref_val = end[0][0]
 #print '\nref_val',ref_val
 for i in range(rows):
 	for j in range(columns):
+		if end[i][j] ==  ref_val:
+			result[i][j] = 1
