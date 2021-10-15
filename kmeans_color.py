@@ -169,3 +169,7 @@ for i in range(rows):
 		if ground_out[i][j] == 1 and result[i][j] == 1:
 			tp = tp + 1
 		if ground_out[i][j] == 0 and result[i][j] == 0:
+			tn = tn + 1
+		if ground_out[i][j] == 1 and result[i][j] == 0:
+			fn = fn + 1
+		if ground_out[i][j] == 0 and result[i][j] == 1:
