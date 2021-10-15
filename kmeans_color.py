@@ -163,3 +163,7 @@ tp = 0
 tn = 0
 fn = 0
 fp = 0
+
+for i in range(rows):
+	for j in range(columns):
+		if ground_out[i][j] == 1 and result[i][j] == 1:
