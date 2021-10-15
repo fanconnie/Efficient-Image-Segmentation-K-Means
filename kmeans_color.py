@@ -168,3 +168,4 @@ for i in range(rows):
 	for j in range(columns):
 		if ground_out[i][j] == 1 and result[i][j] == 1:
 			tp = tp + 1
+		if ground_out[i][j] == 0 and result[i][j] == 0:
