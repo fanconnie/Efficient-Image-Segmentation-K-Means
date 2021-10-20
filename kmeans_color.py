@@ -194,3 +194,7 @@ print "\nFscore:",fscore
 
 plt.figure()
 plt.imshow(end)
+plt.show()
+
+
+'''displaying the clusters in different gray scale levels'''
