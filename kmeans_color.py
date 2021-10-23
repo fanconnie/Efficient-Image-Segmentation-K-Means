@@ -198,3 +198,4 @@ plt.show()
 
 
 '''displaying the clusters in different gray scale levels'''
+plt.figure()
