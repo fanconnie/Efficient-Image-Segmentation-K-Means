@@ -199,3 +199,6 @@ plt.show()
 
 '''displaying the clusters in different gray scale levels'''
 plt.figure()
+plt.imshow(result, cmap="Greys_r")
+plt.colorbar()
+plt.show()	
