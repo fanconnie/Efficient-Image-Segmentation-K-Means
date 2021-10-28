@@ -1,1 +1,1 @@
-# Efficient K-Means I
+# Efficient K-Means Image
