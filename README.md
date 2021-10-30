@@ -1,1 +1,1 @@
-# Efficient K-Means Image Segmentati
+# Efficient K-Means Image Segmentation
