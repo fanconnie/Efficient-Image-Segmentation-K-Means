@@ -1,3 +1,3 @@
 # Efficient K-Means Image Segmentation
 
-In this project, c
+In this project, conv
