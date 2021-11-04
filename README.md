@@ -1,3 +1,3 @@
 # Efficient K-Means Image Segmentation
 
-In this project, conventi
+In this project, conventional
