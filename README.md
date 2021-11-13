@@ -1,3 +1,3 @@
 # Efficient K-Means Image Segmentation
 
-In this project, conventional k-means clu
+In this project, conventional k-means clusterin
