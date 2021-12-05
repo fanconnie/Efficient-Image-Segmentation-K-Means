@@ -2,4 +2,4 @@
 
 In this project, conventional k-means clustering algorithm is implemented for both gray-scale and colored image segmentation.
 
-The K-means algorithm is an unsupervised clustering 
+The K-means algorithm is an unsupervised clustering meth
