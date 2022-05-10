@@ -4,4 +4,4 @@ In this project, conventional k-means clustering algorithm is implemented for bo
 
 The K-means algorithm is an unsupervised clustering method which classifies input data points into multiple classes based on their inherent distance from each other. It assumes that the data features form a vector space and attempts to find natural clustering within them.
 
-The script `kmeans.py` uses the ideal output segmentatio
+The script `kmeans.py` uses the ideal output segmentation
