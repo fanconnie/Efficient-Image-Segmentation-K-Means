@@ -6,4 +6,4 @@ The K-means algorithm is an unsupervised clustering method which classifies inpu
 
 The script `kmeans.py` uses the ideal output segmentation file (out1.jpg) to calculate/evaluate the accuracy of the segmentation for the gray-scale image. The code outputs TP rate, FP rate, and F-score.
 
-Similarly, `kme
+Similarly, `kmea
