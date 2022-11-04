@@ -8,4 +8,4 @@ The script `kmeans.py` uses the ideal output segmentation file (out1.jpg) to cal
 
 Similarly, `kmeans_color.py` uses the ideal output segmentation file (out2.jpg) to calculate/evaluate the accuracy of the segmentation for the colored image. The code outputs TP rate, FP rate, and F-score.
 
-This repo has been mai
+This repo has been maint
